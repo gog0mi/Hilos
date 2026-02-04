@@ -251,6 +251,49 @@ export function Home() {
                 ))
                 } 
             </div>
+
+            <h3>Bloques creados</h3>
+
+<div style={{
+    border: "1px solid #ccc",
+    padding: "10px",
+    maxWidth: "300px"
+}}>
+    {divs.length === 0 && <p>No hay bloques creados</p>}
+
+    {divs.map((div, index) => (
+        <div key={index} style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "10px",
+            marginBottom: "8px",
+            borderBottom: "1px solid #eee",
+            paddingBottom: "5px"
+        }}>
+            {/* Vista previa */}
+            <div style={{
+                backgroundColor: div.color,
+                width: "30px",
+                height: "30px",
+                border: "1px solid black"
+            }} />
+
+            {/* Datos */}
+            <div style={{ flex: 1 }}>
+                <div>Color: {div.color}</div>
+                <div>Altura: {Math.round(div.height)} px</div>
+            </div>
+
+            {/* Eliminar */}
+            <button
+                type="button"
+                onClick={() => eliminarDiv(index)}
+            >
+                X
+            </button>
+        </div>
+    ))}
+</div>
         </>
     );
 }
