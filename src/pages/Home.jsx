@@ -281,7 +281,7 @@ export function Home() {
             {/* Datos */}
             <div style={{ flex: 1 }}>
                 <div>Color: {div.color}</div>
-                <div>Altura: {Math.round(div.height)} px</div>
+                <div>Altura: {div.height/0.3625} px</div>
             </div>
 
             {/* Eliminar */}
