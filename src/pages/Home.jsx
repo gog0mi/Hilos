@@ -100,6 +100,8 @@ export function Home() {
                 {/* COLORES */}
                 <div id="color-options"
                     style={{
+                        display: "flex",
+                        flexWrap: "wrap",
                         width: "100vw",
                     }}
                 >
@@ -110,8 +112,9 @@ export function Home() {
                             onClick={() => setColor(c.valor)}
                             style={{
                                 backgroundColor: c.valor,
-                                width: "30px",
-                                height: "30px",
+                                width: "60px",
+                                height: "60px",
+                                marginBottom: "10px",
                                 border:
                                     color === c.valor
                                         ? "3px solid yellow"
