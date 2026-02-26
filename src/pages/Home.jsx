@@ -98,7 +98,11 @@ export function Home() {
 
             <form onSubmit={crearDiv}>
                 {/* COLORES */}
-                <div id="color-options">
+                <div id="color-options"
+                    style={{
+                        width: "100vw",
+                    }}
+                >
                     {colores.map((c, index) => (
                         <button
                             key={index}
@@ -177,7 +181,8 @@ export function Home() {
                         <div style={{
                             backgroundColor: div.color,
                             height: div.height + "px",
-                            width: "300px",
+                            width: "100vw",
+                            maxWidth: "500px",
                         }}
                         />{/*}
                         <button type="button" onClick={() => eliminarDiv(index)}>
@@ -194,7 +199,8 @@ export function Home() {
                         <div style={{
                             backgroundColor: div.color,
                             height: div.height + "px",
-                            width: "200px",
+                            width: "100vw",
+                            maxWidth: "500px",
                         }}
                         />{/*}
                         <button type="button" onClick={() => eliminarDiv(index)}>
@@ -211,7 +217,8 @@ export function Home() {
                         <div style={{
                             backgroundColor: div.color,
                             height: div.height + "px",
-                            width: "200px",
+                            width: "100vw",
+                            maxWidth: "500px",
                         }}
                         />{/*}
                         <button type="button" onClick={() => eliminarDiv(index)}>
@@ -228,7 +235,8 @@ export function Home() {
                         <div style={{
                             backgroundColor: div.color,
                             height: div.height + "px",
-                            width: "200px",
+                            width: "100vw",
+                            maxWidth: "500px",
                         }}
                         />{/*}
                         <button type="button" onClick={() => eliminarDiv(index)}>
@@ -245,7 +253,8 @@ export function Home() {
                         <div style={{
                             backgroundColor: div.color,
                             height: div.height + "px",
-                            width: "200px",
+                            width: "100vw",
+                            maxWidth: "500px",
                         }}
                         />{/*}
                         <button type="button" onClick={() => eliminarDiv(index)}>
