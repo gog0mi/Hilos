@@ -15,11 +15,15 @@ export function Home() {
         { nombre: "Rojo", valor: "#d10000" },
         { nombre: "Azul", valor: "#0000ff" },
         { nombre: "Azul Marino", valor: "#000042" },
-        { nombre: "Verde", valor: "#182c00" },
+        { nombre: "Verde", valor: "#254400" },
         { nombre: "Negro", valor: "#000000" },
         { nombre: "Blanco", valor: "#ffffff" },
-        { nombre: "Gris", valor: "#dddddd" },
-        { nombre: "Beige", valor: "#a70000" },
+        { nombre: "Gris", valor: "#949494" },
+        { nombre: "Guinda", valor: "#6b0000" },
+        { nombre: "Oro", valor: "#ffc400" },
+        { nombre: "Melon", valor: "#ffd67e" },
+        { nombre: "Rosa", valor: "#ffa1f7" },
+        { nombre: "Celeste", valor: "#96eaff" }
     ];
 
     // 👇 Cargar guardados al iniciar
@@ -173,7 +177,7 @@ export function Home() {
                         <div style={{
                             backgroundColor: div.color,
                             height: div.height + "px",
-                            width: "200px",
+                            width: "300px",
                         }}
                         />{/*}
                         <button type="button" onClick={() => eliminarDiv(index)}>
