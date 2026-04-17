@@ -13,16 +13,16 @@ export function Home() {
 
     const colores = [
         { nombre: "Rojo", valor: "#d10000" },
-        { nombre: "Azul", valor: "#0000ff" },
+        { nombre: "Azul", valor: "#0000c2" },
         { nombre: "Azul Marino", valor: "#000042" },
-        { nombre: "Verde", valor: "#254400" },
+        { nombre: "Verde", valor: "#5d6532" },
         { nombre: "Negro", valor: "#000000" },
         { nombre: "Blanco", valor: "#ffffff" },
         { nombre: "Gris", valor: "#949494" },
         { nombre: "Guinda", valor: "#6b0000" },
         { nombre: "Oro", valor: "#ffc400" },
         { nombre: "Melon", valor: "#ffd67e" },
-        { nombre: "Rosa", valor: "#ffa1f7" },
+        { nombre: "Beige", valor: "#ede8d0" },
         { nombre: "Celeste", valor: "#96eaff" }
     ];
 
