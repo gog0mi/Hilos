@@ -18,10 +18,10 @@ export function Home() {
         { nombre: "Verde", valor: "#5d6532" },
         { nombre: "Negro", valor: "#000000" },
         { nombre: "Blanco", valor: "#ffffff" },
-        { nombre: "Gris", valor: "#949494" },
+        { nombre: "Gris", valor: "#adadad" },
         { nombre: "Guinda", valor: "#6b0000" },
         { nombre: "Oro", valor: "#ffc400" },
-        { nombre: "Melon", valor: "#ffd67e" },
+        { nombre: "Melon", valor: "#e0b046" },
         { nombre: "Beige", valor: "#ede8d0" },
         { nombre: "Celeste", valor: "#96eaff" }
     ];
