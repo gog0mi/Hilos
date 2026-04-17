@@ -18,7 +18,7 @@ export function Home() {
         { nombre: "Verde", valor: "#5d6532" },
         { nombre: "Negro", valor: "#000000" },
         { nombre: "Blanco", valor: "#ffffff" },
-        { nombre: "Gris", valor: "#adadad" },
+        { nombre: "Gris", valor: "#c9c9c9" },
         { nombre: "Guinda", valor: "#6b0000" },
         { nombre: "Oro", valor: "#ffc400" },
         { nombre: "Melon", valor: "#e0b046" },
